@@ -217,7 +217,7 @@
 								<h3>Proyectos Futuros</h3>
 								<div id="works">
 									<div class="work-item">
-										<p>Primer proyecto <br> <br>Compra de cambion de basura </p>
+										<p>Primer proyecto <br> <br>Basura</p>
 									</div>
 									<div class="work-item">
 										<p>Segundo proyeto<br><br>Cancha de futbol</p>
