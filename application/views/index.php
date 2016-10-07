@@ -112,7 +112,7 @@
 						<div class="slide-caption">
                             <div class="caption-content">
                                 <img class="logo" src="img/logog.png" alt="Logo"></img>
-                                <h2 class="animated fadeInDown">Alcaldía Municipal de Villa El Refugio</h2>
+                                <h2 class="animated fadeInDown">*****Alcaldía Municipal de Villa El Refugio*****</h2>
                                 <h2 id='pais' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
                             </div>
                         </div>
