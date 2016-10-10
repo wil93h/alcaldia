@@ -259,10 +259,11 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-home fa-3x"></i>
+									<i class="fa fa-money fa-3x"></i>
 								</div>
-								<h3>Asesoría</h3>
-								<p>Brindamos asesoría en cada uno de los tramites a realizar</p>
+								<h3>Apoyo a la Tercera Edad</h3>
+								<p>Se ha desarrollado un programa de ayuda  para las personas de la tercera edad de escasos recursos económicos.
+								</p>
 							</div>
 						</div>
 
