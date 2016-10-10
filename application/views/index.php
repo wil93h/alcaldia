@@ -539,24 +539,43 @@
 						</div>
 
 
-						<div class="col-md-7 contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
-								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Nombre..">
-								</div>
-								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Correo electrónico...">
-								</div>
-								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Asunto">
-								</div>
-								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Mensaje"></textarea>
-								</div>
-						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
-							</form>
-						</div>
-
+<div class="col-md-7 contact-form wow animated fadeInLeft">
+            <?php
+    if (!isset($_POST['email'])) {
+    ?>
+      <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+          	<div class="input-field">
+          <input name="nombre" type="text"  class="form-control" placeholder="Nombre" />
+        </div>
+        <div class="input-field">
+          <input name="telefono" type="text"  class="form-control" placeholder="Teléfono" />
+        </div>
+        <div class="input-field">
+          <input name="email" type="text"  class="form-control" placeholder="Correo" />
+        </div>
+        <div class="input-field">
+          <textarea name="mensaje" rows="6" cols="50"  class="form-control" placeholder="Mensaje"></textarea>
+        </div>
+        <input type="reset" value="Borrar" class="btn btn-blue btn-effect" />
+        <input type="submit" value="Enviar" class="btn btn-blue btn-effect" />
+      </form>
+    <?php
+    }else{
+      $mensaje="Mensaje del formulario de contacto de nnatali.com";
+      $mensaje.= "\nNombre: ". $_POST['nombre'];
+      $mensaje.= "\nEmail: ".$_POST['email'];
+      $mensaje.= "\nTelefono: ". $_POST['telefono'];
+      $mensaje.= "\nMensaje: \n".$_POST['mensaje'];
+      $destino= "rene_edgardo_2@hotmail.com";
+      $remitente = $_POST['email'];
+      $asunto = "Mensaje enviado por: ".$_POST['nombre'];
+      mail($destino,$asunto,$mensaje,"FROM: $remitente");
+    ?>
+      <p><strong>Mensaje enviado.</strong></p>
+    <?php
+    }
+    ?>
+  </div>
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
 								<h3>Contacto</h3>
