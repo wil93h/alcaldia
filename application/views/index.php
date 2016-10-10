@@ -270,37 +270,47 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-futbol-o fa-3x"></i>
+									<i class="fa fa-tasks fa-3x"></i>
 								</div>
-								<h3>Escuela Municipal de Fútbol</h3>
-								<p>Ejecuta programas de prevención de violencia, y una de las estrategias utilizadas es el apoyo a los jóvenes a través del deporte. </p>
+								<h3>Well Documented</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 							</div>
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-hand-rock-o fa-3x"></i>
+									<i class="fa fa-clock-o fa-3x"></i>
 								</div>
-								<h3>Escuela Municipal de Taekwondo</h3>
-								<p>apoya las diferentes disciplinas deportivas, y una de las que se está desarrollando en Villa El Refugio es la de Taekwondo. </p>
+								<h3>Design UI/UX</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 							</div>
 						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-medkit fa-3x"></i>
+									<i class="fa fa-heart fa-3x"></i>
 								</div>
 
-								<h3>Salud y Bienestar</h3>
-								<p>Constantemente se realizan jornadas de consulta médica gratuita en Villa El Refugio en coordinación con los médicos de Operación Bendición. </p>
+								<h3>Web Security</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 							</div>
 						</div>
 
 					</div>
 				</div>
-			</section>d="proyec">
+			</section>
+			<!-- end Service section -->
+
+
+			<!-- portfolio section -->
+
+			<section id="portfolio">
+				<div class="container">
+					<div class="row">
+
+						<div class="sec-title text-center wow animated fadeInDown" id="proyec">
 							<h2>Proyectos</h2>
 							<p>Los beneficiados somos todos, proyectos en Villa El Refugio</p>
 						</div>
