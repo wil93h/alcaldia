@@ -27,7 +27,7 @@ class Proyectos extends CI_Controller {
 	{
 		if($t=="proyecto1")
 		{
-			$dir = "img/Proyectos/Proyecto1";
+			$dir = "img/proyectos/proyecto1";
       $dh  = opendir($dir);
       while (false !== ($nombre_archivo = readdir($dh))) {
       $archivos[] = $nombre_archivo;
@@ -55,7 +55,7 @@ class Proyectos extends CI_Controller {
 		}
 		 else if($t=="proyecto2")
 		{
-			$dir = "img/Proyectos/Proyecto2";
+			$dir = "img/proyectos/proyecto2";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
@@ -84,7 +84,7 @@ class Proyectos extends CI_Controller {
 		else if($t=="proyecto3")
 		{
 
-			$dir = "img/Proyectos/Proyecto3";
+			$dir = "img/proyectos/proyecto3";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
@@ -113,7 +113,7 @@ class Proyectos extends CI_Controller {
 
 		else if($t=="proyecto4")
 		{
-			$dir = "img/Proyectos/Proyecto4";
+			$dir = "img/proyectos/proyecto4";
       $dh  = opendir($dir);
       while (false !== ($nombre_archivo = readdir($dh))) {
       $archivos[] = $nombre_archivo;
@@ -141,7 +141,7 @@ class Proyectos extends CI_Controller {
 		}
 		elseif ($t=="proyecto5") {
 
-			$dir = "img/Proyectos/Proyecto5";
+			$dir = "img/proyectos/proyecto5";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
@@ -170,7 +170,7 @@ echo $total;
 		}
 		else if($t=="proyecto6")
 		{
-			$dir = "img/Proyectos/Proyecto6";
+			$dir = "img/proyectos/proyecto6";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
