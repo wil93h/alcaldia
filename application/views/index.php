@@ -44,52 +44,54 @@
     </head>
 
     <body id="body">
-
 		<!-- preloader -->
 		<div id="preloader">
             <div class="loder-box">
               <img id="inicio" src="img/logog.gif" alt="Logo"></img>
-            	<!--<div class="battery"></div> -->
+                <!--<div class="battery"></div> -->
             </div>
-		</div>
-		<!-- end preloader -->
-
-        <!--
-        Fixed Navigation
-        ==================================== -->
+        </div>
+        <!-- End preloader -->
+        <!-- start header -->
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-                    </button>
-					<!-- /responsive nav button -->
 
-					<!-- logo -->
-
-					<!-- /logo -->
-                </div>
-
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li><a href="#body">Principal</a></li>
-                        <li><a href="#service">Servicios</a></li>
-                        <li><a href="#portfolio">Proyectos</a></li>
-                        <li><a href="#testimonials">Consejales</a></li>
-                        <li><a href="#social">Redes Sociales</a></li>
-                        <li><a href="#contact">Contactanos</a></li>
-
-                    </ul>
-                </nav>
-				<!-- /main nav -->
-
-            </div>
-        </header>
+        <!-- nuevo menu -->
+		<nav class="collapse navbar-collapse " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VILLA EL REFUGIO</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav navbar-right">
+            <li ><a href="#body">Principal</a></li>
+            <li class="dropdown">
+              <a href="#Service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicio<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li><a href="#portfolio">Proyecto</a></li>
+            <li><a href="#testimonials">Consejales</a></li>
+            <li><a href="#social">Redes Sociales</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    </header>
+    <!-- End header -->
         <!--
         End Fixed Navigation
         ==================================== -->
@@ -112,7 +114,7 @@
 						<div class="slide-caption">
                             <div class="caption-content">
                                 <img class="logo" src="img/logog.png" alt="Logo"></img>
-                                <h2 class="animated fadeInDown">Alcaldía Municipal de Villa El Refugio</h2>
+                                <h2 class="animated fadeInDown">Alcaldía Municipal Villa El Refugio</h2>
                                 <h2 id='pais' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
                             </div>
                         </div>
