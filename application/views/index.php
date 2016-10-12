@@ -320,73 +320,73 @@
 
 						<ul class="project-wrapper wow animated fadeInUp">
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto1/proyecto1_1mini.jpg" class="img-responsive" alt="Proyecto de Iluminación en las comunidades de Villa El Refugio">
+								<img src="img/proyectos/proyecto1/proyecto1_1mini.jpg" class="img-responsive" alt="Proyecto de Iluminación en las comunidades de Villa El Refugio">
 								<figcaption class="mask">
 									<h3>Iluminación</h3>
 									<p>Proyecto de Iluminación en las Comunidades de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Iluminación" data-fancybox-group="works" href="img/Proyectos/Proyecto1/proyecto1_1.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto Iluminación" data-fancybox-group="works" href="img/proyectos/proyecto1/proyecto1_1.jpg"><i class="fa fa-search"></i></a></li>
                   <li> <a class="pro" id="pro1" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto2/proyecto2_1mini.jpg" class="img-responsive" alt="Proyecto de Reparación de calles de Villa El Refugio">
+								<img src="img/proyectos/proyecto2/proyecto2_1mini.jpg" class="img-responsive" alt="Proyecto de Reparación de calles de Villa El Refugio">
 								<figcaption class="mask">
 									<h3>Reparación de Calles</h3>
 									<p>Proyecto de Reparación de Calles de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Reparación de Calles" href="img/Proyectos/Proyecto2/proyecto2_1.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto Reparación de Calles" href="img/proyectos/proyecto2/proyecto2_1.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
 									<li> <a class="pro" id="pro2" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto3/proyecto3_1mini.jpg" class="img-responsive" alt="Proyecto Inspección de Terreno de Villa El Refugio">
+								<img src="img/proyectos/proyecto3/proyecto3_1mini.jpg" class="img-responsive" alt="Proyecto Inspección de Terreno de Villa El Refugio">
 								<figcaption class="mask">
 									<h3>Inspección de Terreno</h3>
 									<p>Proyecto Inspección de Terreno de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Inspección de Terreno" data-fancybox-group="works" href="img/Proyectos/Proyecto3/proyecto3_1.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto Inspección de Terreno" data-fancybox-group="works" href="img/proyectos/proyecto3/proyecto3_1.jpg"><i class="fa fa-search"></i></a></li>
 									  <li> <a class="pro" id="pro3" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto4/proyecto4_1mini.jpg" class="img-responsive" alt="Proyecto de Limpieza del Municipio de Villa El Refugio.">
+								<img src="img/proyectos/proyecto4/proyecto4_1mini.jpg" class="img-responsive" alt="Proyecto de Limpieza del Municipio de Villa El Refugio.">
 								<figcaption class="mask">
 									<h3>Limpieza del Municipio</h3>
 									<p>Proyecto de Limpieza del Municipio de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Limpieza del Municipio de Villa El Refugio" data-fancybox-group="works" href="img/Proyectos/Proyecto4/proyecto4_1.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto de Limpieza del Municipio de Villa El Refugio" data-fancybox-group="works" href="img/proyectos/proyecto4/proyecto4_1.jpg"><i class="fa fa-search"></i></a></li>
 									  <li> <a class="pro" id="pro4" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto5/proyecto5_1mini.jpg" class="img-responsive" alt="Proyecto de Entrega de Refrigerio ">
+								<img src="img/proyectos/proyecto5/proyecto5_1mini.jpg" class="img-responsive" alt="Proyecto de Entrega de Refrigerio ">
 								<figcaption class="mask">
 									<h3>Entrega de Refigerio</h3>
 									<p>Proyecto de Entrega de Refrigerio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Entrega de Refigerio" data-fancybox-group="works" href="img/Proyectos/Proyecto5/proyecto5_1.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto de Entrega de Refigerio" data-fancybox-group="works" href="img/proyectos/proyecto5/proyecto5_1.jpg"><i class="fa fa-search"></i></a></li>
 								  <li> <a class="pro" id="pro5" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
 							<li class="portfolio-item">
-								<img src="img/Proyectos/Proyecto6/proyecto6_1mini.jpg" class="img-responsive" alt="Proyecto de Siembre de Árboles en Villa El Refugio">
+								<img src="img/proyectos/proyecto6/proyecto6_1mini.jpg" class="img-responsive" alt="Proyecto de Siembre de Árboles en Villa El Refugio">
 								<figcaption class="mask">
 									<h3>Siembra de Árboles</h3>
 									<p>Proyecto de Siembra de Árboles en Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Siembra de Árboles en Villa El Refugio" data-fancybox-group="works" href="img/Proyectos/Proyecto6/proyecto6_1.jpg"><i class="fa fa-search"></i></a></li>
+									<li><a class="fancybox" title="Proyecto de Siembra de Árboles en Villa El Refugio" data-fancybox-group="works" href="img/proyectos/proyecto6/proyecto6_1.jpg"><i class="fa fa-search"></i></a></li>
 									  <li> <a class="pro" id="pro6" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
