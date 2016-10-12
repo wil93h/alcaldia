@@ -23,12 +23,11 @@ class Proyectos extends CI_Controller {
 		$this->load->view('proyectos');
 	}
 
-
 	public function proy($t)
 	{
 		if($t=="proyecto1")
 		{
-			$dir = "img/proyectos/proyecto1";
+			$dir = "img/Proyectos/Proyecto1";
       $dh  = opendir($dir);
       while (false !== ($nombre_archivo = readdir($dh))) {
       $archivos[] = $nombre_archivo;
@@ -53,15 +52,10 @@ class Proyectos extends CI_Controller {
 		$pro['p']= "Proyecto de Iluminación en las Comunidades de Villa El Refugio";
 		$this->load->view('proyectos',$pro);
 
-			/*$pro['h2']= "Iluminación en las Comunidades de Villa El Refugio";
-			$pro['p']= "Proyecto de Iluminación en las Comunidades de Villa El Refugio";
-			$pro['img1']="../../../img/proyectos/Proyecto1/proyecto1_1mini.jpg";
-			$pro['imgg1']="../../../img/proyectos/Proyecto1/proyecto1_1.jpg";
-			$this->load->view('proyectos',$pro);*/
 		}
 		 else if($t=="proyecto2")
 		{
-			$dir = "img/proyectos/proyecto2";
+			$dir = "img/Proyectos/Proyecto2";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
@@ -86,23 +80,25 @@ class Proyectos extends CI_Controller {
 			$pro['p']="Proyecto de Reparación de Calles de Villa El Refugio";
 			$this->load->view('proyectos',$pro);
 		}
+
 		else if($t=="proyecto3")
 		{
 
-			$dir = "img/proyectos/proyecto1";
-      $dh  = opendir($dir);
-      while (false !== ($nombre_archivo = readdir($dh))) {
-      $archivos[] = $nombre_archivo;
-}
+			$dir = "img/Proyectos/Proyecto3";
+			$dh  = opendir($dir);
+			while (false !== ($nombre_archivo = readdir($dh))) {
+			$archivos[] = $nombre_archivo;
+		}
 
-     $total_archivos = count($archivos);
-     $total = ($total_archivos-2)/2;
+		 $total_archivos = count($archivos);
+		 $total = ($total_archivos-2)/2;
+		 echo $total;
 
-      for($i=1;$i<=$total;$i++)
+			for($i=1;$i<=$total;$i++)
 			{
 				$pro['img'.$i]='<img src="../../../img/proyectos/'.$t.'/'.$t.'_'.$i.'mini.jpg"  class="img-responsive" alt="ex ea commodo consequat">';
 				$pro['imgg'.$i]='<li><a href="../../../img/proyectos/'.$t.'/'.$t.'_'.$i.'.jpg" class="fancybox" title="Araund The world" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>';
-		  }
+			}
 
 			for($j=$total+1;$j<=6;$j++)
 			{
@@ -111,21 +107,21 @@ class Proyectos extends CI_Controller {
 			}
 
 			$pro['h2']="Inspección de Terreno";
-			$pro['p']="Proyecto Inspección de Terreno de Villa El Refugio";
-      $this->load->view('proyectos',$pro);
+			$pro['p']="Inspección de Terrenos de Villa El Refugio";
+			$this->load->view('proyectos',$pro);
 		}
-
 
 		else if($t=="proyecto4")
 		{
-			$dir = "img/proyectos/proyecto1";
+			$dir = "img/Proyectos/Proyecto4";
       $dh  = opendir($dir);
       while (false !== ($nombre_archivo = readdir($dh))) {
       $archivos[] = $nombre_archivo;
-}
+      }
 
      $total_archivos = count($archivos);
      $total = ($total_archivos-2)/2;
+		 echo $total;
 
       for($i=1;$i<=$total;$i++)
 			{
@@ -145,7 +141,7 @@ class Proyectos extends CI_Controller {
 		}
 		elseif ($t=="proyecto5") {
 
-			$dir = "img/proyectos/proyecto1";
+			$dir = "img/Proyectos/Proyecto5";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;
@@ -153,6 +149,7 @@ class Proyectos extends CI_Controller {
 
 		 $total_archivos = count($archivos);
 		 $total = ($total_archivos-2)/2;
+echo $total;
 
 			for($i=1;$i<=$total;$i++)
 			{
@@ -173,7 +170,7 @@ class Proyectos extends CI_Controller {
 		}
 		else if($t=="proyecto6")
 		{
-			$dir = "img/proyectos/proyecto1";
+			$dir = "img/Proyectos/Proyecto6";
 			$dh  = opendir($dir);
 			while (false !== ($nombre_archivo = readdir($dh))) {
 			$archivos[] = $nombre_archivo;

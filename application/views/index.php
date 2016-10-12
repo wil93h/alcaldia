@@ -542,41 +542,27 @@
 
 
 <div class="col-md-7 contact-form wow animated fadeInLeft">
-            <?php
-    if (!isset($_POST['email'])) {
-    ?>
-      <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+
+     <form action="index.php/proyectos/EnviarCorreo" method="post">
           	<div class="input-field">
-          <input name="nombre" type="text"  class="form-control" placeholder="Nombre" />
+          <input name="nombre" type="text"  class="form-control" placeholder="Nombre"  required/>
         </div>
         <div class="input-field">
-          <input name="telefono" type="text"  class="form-control" placeholder="Teléfono" />
+          <input name="email" type="text"  class="form-control" placeholder="Correo" required/>
         </div>
         <div class="input-field">
-          <input name="email" type="text"  class="form-control" placeholder="Correo" />
+          <input name="telefono" type="text"  class="form-control" placeholder="Teléfono" required  />
         </div>
+      </div>
+      <div class="input-field">
+        <input name="asunto" type="text"  class="form-control" placeholder="Asunto" required/>
+      </div>
         <div class="input-field">
-          <textarea name="mensaje" rows="6" cols="50"  class="form-control" placeholder="Mensaje"></textarea>
+          <textarea name="mensaje" rows="6" cols="50"  class="form-control" placeholder="Mensaje" required></textarea>
         </div>
         <input type="reset" value="Borrar" class="btn btn-blue btn-effect" />
         <input type="submit" value="Enviar" class="btn btn-blue btn-effect" />
       </form>
-    <?php
-    }else{
-      $mensaje="Mensaje del formulario de contacto de nnatali.com";
-      $mensaje.= "\nNombre: ". $_POST['nombre'];
-      $mensaje.= "\nEmail: ".$_POST['email'];
-      $mensaje.= "\nTelefono: ". $_POST['telefono'];
-      $mensaje.= "\nMensaje: \n".$_POST['mensaje'];
-      $destino= "rene_edgardo_2@hotmail.com";
-      $remitente = $_POST['email'];
-      $asunto = "Mensaje enviado por: ".$_POST['nombre'];
-      mail($destino,$asunto,$mensaje,"FROM: $remitente");
-    ?>
-      <p><strong>Mensaje enviado.</strong></p>
-    <?php
-    }
-    ?>
   </div>
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
