@@ -6,7 +6,7 @@
      <head>
     	 <!-- meta character set -->
          <meta charset="utf-8">
-		 <!-- Always force latest IE rendering engine or request Chrome Frame -->
+		 <!-- Always force lai IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Alcaldía Municipal de Villa El Refugio</title>
 		<!-- Meta Description -->
@@ -47,7 +47,7 @@
 		<!-- preloader -->
 		<div id="preloader">
             <div class="loder-box">
-              <img id="inicio" src="img/logog.gif" alt="Logo"></img>
+              <img class="img-responsive" id="inicio" src="img/logog.gif" alt="Logo"></img>
                 <!--<div class="battery"></div> -->
             </div>
         </div>
@@ -401,14 +401,14 @@
 			<!-- Testimonial section -->
 			<section id="testimonials" class="parallax">
 				<div class="overlay">
-					<div class="container">
+					<div class="sl-slider-wrapper">
 						<div class="row">
 
 							<div class="sec-title text-center white wow animated fadeInDown">
 								<h2>Concejales</h2>
 							</div>
 
-							<div id="testimonial" class=" wow animated fadeInUp">
+							<div id="testimonial" class="animated">
 								<div class="testimonial-item text-center">
 									<img src="img/alcalde.jpg" alt="Our Clients">
 									<div class="clearfix">

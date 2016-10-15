@@ -231,9 +231,10 @@ main > section {
 .loder-box {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 1px;
-  height: 200px;
-  position: absolute;
-  width: 260px;
+  height: auto;
+  width: auto;
+  min-width: 100px;
+  min-height: 100px;
   margin-left: 45%;
   margin-right: 45%;
   margin-top: 18%;
@@ -556,10 +557,11 @@ h1.navbar-brand {
     display: inline-block;
     float: right;
     padding: 1px 8px 5px;
+
 }
 
 .owl-buttons > div {
-    display: inline-block;
+    display: inline;
     padding: 0 5px;
 }
 
@@ -808,6 +810,8 @@ ul.external li a:hover {
 #testimonials .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
+    margin-left: 42%;
+    margin-right: 42%;
 }
 
 #testimonials .owl-prev:hover,
