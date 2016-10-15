@@ -122,7 +122,6 @@
 					</div>
 
 					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-
 						<div class="bg-img bg-img-2"></div>
 						<div class="slide-caption">
                             <div class="caption-content">
@@ -413,7 +412,7 @@
 									<img src="img/alcalde.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Concejal 1</span>
-									<p>Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
 									</div>
 								</div>
 
@@ -421,7 +420,7 @@
 									<img src="img/member-1.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Concejal 2</span>
-									<p>Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
 									</div>
 								</div>
 
@@ -429,7 +428,7 @@
 									<img src="img/member-1.jpg" alt="Our Clients">
 									<div class="clearfix">
 										<span>Concejal 3</span>
-									<p>Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
 									</div>
 								</div>
 							</div>
@@ -510,7 +509,8 @@
 			<!-- end Price section -->
 
 			<!-- Social section -->
-			<section id="social" class="parallax">
+			<section id="social">
+       <div class="bg-img bg-img-1">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
@@ -529,6 +529,7 @@
 						</div>
 					</div>
 				</div>
+      </div>
 			</section>
 			<!-- end Social section -->
 
