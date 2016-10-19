@@ -1,4 +1,4 @@
-/**
+ /**
 *
 * ---------------------------------------------------------------------------
 *
@@ -303,7 +303,16 @@ main > section {
 }
 
 #navigation.animated-header {
-    padding: 20px 0;
+    padding: 0px 0px;
+    background: darkblue;
+}
+#logo{
+padding: 4px 15px;
+
+}
+#logomenu {
+    padding: auto;
+    width: 50px;
 }
 
 h1.navbar-brand {
