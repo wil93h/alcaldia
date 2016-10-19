@@ -257,8 +257,8 @@
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
-								<div class="service-icon">
-									<i class="fa fa-money fa-3x"></i>
+								<div class="service-icon"><a href="index.php/proyectos/Servicios"><i class="fa fa-money fa-3x"></i></a>
+									
 								</div>
 								<h3>Apoyo a la Tercera Edad</h3>
 								<p>Se ha desarrollado un programa de ayuda  para las personas de la tercera edad de escasos recursos económicos.

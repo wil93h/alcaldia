@@ -22,7 +22,9 @@ class Proyectos extends CI_Controller {
 	{
 		$this->load->view('proyectos');
 	}
-
+	public function servicios() {
+		$this->load->view('Servicios');
+	}
 	public function proy($t)
 	{
 		if($t=="proyecto1")
