@@ -542,7 +542,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: darkblue;
     color: #fff;
 }
 
@@ -768,7 +768,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: darkblue;
     padding: 70px 0 40px;
 }
 
