@@ -56,7 +56,7 @@
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
 
         <!-- nuevo menu -->
-		<nav class=" navbar-collapse">	
+		<nav class=" navbar-collapse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -76,7 +76,7 @@
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
-                
+
               </ul>
             </li>
             <li><a href="#portfolio">Proyecto</a></li>
@@ -258,7 +258,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
 								<div class="service-icon"><a href="index.php/proyectos/Servicios"><i class="fa fa-money fa-3x"></i></a>
-									
+
 								</div>
 								<h3>Apoyo a la Tercera Edad</h3>
 								<p>Se ha desarrollado un programa de ayuda  para las personas de la tercera edad de escasos recursos económicos.
@@ -322,7 +322,6 @@
 									<p>Proyecto de Iluminación en las Comunidades de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Iluminación" data-fancybox-group="works" href="img/proyectos/proyecto1/proyecto1_1.jpg"><i class="fa fa-search"></i></a></li>
                   <li> <a class="pro" id="pro1" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
@@ -334,7 +333,6 @@
 									<p>Proyecto de Reparación de Calles de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Reparación de Calles" href="img/proyectos/proyecto2/proyecto2_1.jpg" data-fancybox-group="works" ><i class="fa fa-search"></i></a></li>
 									<li> <a class="pro" id="pro2" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
@@ -346,7 +344,6 @@
 									<p>Proyecto Inspección de Terreno de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto Inspección de Terreno" data-fancybox-group="works" href="img/proyectos/proyecto3/proyecto3_1.jpg"><i class="fa fa-search"></i></a></li>
 									  <li> <a class="pro" id="pro3" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
@@ -358,8 +355,7 @@
 									<p>Proyecto de Limpieza del Municipio de Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Limpieza del Municipio de Villa El Refugio" data-fancybox-group="works" href="img/proyectos/proyecto4/proyecto4_1.jpg"><i class="fa fa-search"></i></a></li>
-									  <li> <a class="pro" id="pro4" target="_blank" ><i class="fa fa-link"></i></a></li>
+									<li> <a class="pro" id="pro4" target="_blank" ><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
 
@@ -370,7 +366,6 @@
 									<p>Proyecto de Entrega de Refrigerio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Entrega de Refigerio" data-fancybox-group="works" href="img/proyectos/proyecto5/proyecto5_1.jpg"><i class="fa fa-search"></i></a></li>
 								  <li> <a class="pro" id="pro5" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>
@@ -382,7 +377,6 @@
 									<p>Proyecto de Siembra de Árboles en Villa El Refugio</p>
 								</figcaption>
 								<ul class="external">
-									<li><a class="fancybox" title="Proyecto de Siembra de Árboles en Villa El Refugio" data-fancybox-group="works" href="img/proyectos/proyecto6/proyecto6_1.jpg"><i class="fa fa-search"></i></a></li>
 									  <li> <a class="pro" id="pro6" target="_blank"><i class="fa fa-link"></i></a></li>
 								</ul>
 							</li>

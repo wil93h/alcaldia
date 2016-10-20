@@ -44,19 +44,12 @@
     </head>
 
     <body id="body">
-		<!-- preloader -->
-		<div id="preloader">
-            <div class="loder-box">
-              <img class="img-responsive" id="inicio" src="../../img/logog.gif" alt="Logo"></img>
-                <!--<div class="battery"></div> -->
-            </div>
-        </div>
-        <!-- End preloader -->
+
         <!-- start header -->
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
 
         <!-- nuevo menu -->
-		<nav class=" navbar-collapse">	
+		<nav class=" navbar-collapse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -70,13 +63,13 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a href="../../#body">Principal</a></li>
+            <li ><a href="#body">Principal</a></li>
             <li class="dropdown">
-              <a href="../../#Service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicio<span class="caret"></span></a>
+              <a href="#Service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicio<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
-                
+
               </ul>
             </li>
             <li><a href="#portfolio">Proyecto</a></li>
@@ -89,5 +82,5 @@
     </nav>
     </header>
 
-    
+
 </html>
