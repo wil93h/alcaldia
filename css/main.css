@@ -222,73 +222,6 @@ main > section {
     background-size: cover;
 }
 
-
-/**
-/*	Preloader
-/* ==========================================*/
-
-#preloader {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
-
-/*Battery*/
-.loder-box {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 1px;
-  height: auto;
-  width: auto;
-  min-width: 100px;
-  min-height: 100px;
-  margin-left: 45%;
-  margin-right: 45%;
-  margin-top: 18%;
-}
-
-.battery{
-    width: 60px;
-    height: 25px;
-    top: 35%;
-    border: 1px #2E2E2E solid;
-    border-radius: 2px;
-    position: relative;
-
-    margin: 0 auto;
-}
-
-.battery:after {
-  background-color: #2E2E2E;
-  border-radius: 0 1px 1px 0;
-  content: "";
-  height: 10px;
-  position: absolute;
-  right: -5px;
-  top: 7px;
-  width: 3px;
-}
-
-@-webkit-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
-}
-
-@-moz-keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
-}
-
-@keyframes charge{
-    0%{box-shadow: inset 0px 0px 0px #2E2E2E;}
-    100%{box-shadow: inset 60px 0px 0px #2E2E2E;}
-}
-
-
-
-
-
 /**
 /*	Header
 /* ==========================================*/
@@ -300,7 +233,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0,0,255,0.6);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }

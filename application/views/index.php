@@ -44,14 +44,6 @@
     </head>
 
     <body id="body">
-		<!-- preloader -->
-		<div id="preloader">
-            <div class="loder-box">
-              <img class="img-responsive" id="inicio" src="img/logog.gif" alt="Logo"></img>
-                <!--<div class="battery"></div> -->
-            </div>
-        </div>
-        <!-- End preloader -->
         <!-- start header -->
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
 
