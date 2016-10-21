@@ -585,7 +585,6 @@
         <div class="input-field">
           <input name="telefono" type="text"  class="form-control" placeholder="Teléfono" required  />
         </div>
-      </div>
       <div class="input-field">
         <input name="asunto" type="text"  class="form-control" placeholder="Asunto" required/>
       </div>
