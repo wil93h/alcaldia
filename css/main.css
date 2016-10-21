@@ -280,6 +280,7 @@ h1.navbar-brand {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 
 .sl-slider {
@@ -1406,3 +1407,84 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+.testimonial-item2 {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 64%;
+}
+
+.testimonial-item2 img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: auto;
+    max-width: 100px;
+}
+
+.testimonial-item2 > div {
+    line-height: 30px;
+    position: relative;
+}
+
+.testimonial-item2 > div:before {
+    background-repeat: no-repeat;
+    bottom: 127px;
+    height: 33px;
+    left: -35px;
+    position: absolute;
+    width: 45px;
+}
+
+.testimonial-item2 > div:after {
+    background-position: -58px 0;
+    background-repeat: no-repeat;
+    bottom: -50px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    width: 45px;
+}
+
+.testimonial-item2 > div > span {
+    display: inline-block;
+    font-weight: 700;
+    margin: 40px 0 30px;
+    text-transform: uppercase;
+
+    .testimonial-item2 > div:after {
+        bottom: -40px;
+    }
+
+    .testimonial-item2 {
+        width: 100%;
+    }
+
+    .testimonial-item2 {
+        width: 80%;
+    }
+
+    .testimonial-item2 > div:after {
+        bottom: -35px;
+    }
+
+    .testimonial-item2 {
+        width: 95%;
+    }
+
+    .testimonial-item2 > div:before,
+    .testimonial-item2 > div:after {
+        background-image: none;
+    }
+
+    .testimonial-item2 > div > span {
+        margin: 30px 0 20px;
+    }
+
+    .testimonial-item2 {
+        width: 80%;
+    }
+
+    .testimonial-item2 > div:before {
+        bottom: 160px;
+    }

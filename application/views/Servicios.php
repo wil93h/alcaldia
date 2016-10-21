@@ -63,7 +63,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a href="#body">Principal</a></li>
+            <li ><a href="../../#body">Principal</a></li>
             <li class="dropdown">
               <a href="#Service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicio<span class="caret"></span></a>
               <ul class="dropdown-menu">

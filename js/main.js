@@ -110,6 +110,24 @@ $(document).ready(function(){
 	 $(this).attr("href","index.php/proyectos/proy/proyecto6");
 	 });
 
+   $(".servicios").click(function(){
+	 $(this).attr("href","index.php/proyectos/servicios");
+	 })
+
+	 $("#mas").click(function(){
+		 $("#bio").show();
+		 $(this).hide();
+		 $("#men").attr("class","btn btn-border btn-effect")
+		 $("#men").text("Mostrar Menos");
+		 $("#men").show();
+	 })
+
+	 $("#men").click(function(){
+		 $("#bio").hide();
+		 $(this).hide();
+		 $("#mas").show();
+	 })
+
 
 	/* ========================================================================= */
 	/*	Menu item highlighting

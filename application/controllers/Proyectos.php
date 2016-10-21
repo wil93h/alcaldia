@@ -25,7 +25,7 @@ class Proyectos extends CI_Controller {
 
 	public function servicios()
 	 {
-		$this->load->view('Servicios');
+		$this->load->view('servicios');
 	}
 
 	public function proy($t)

@@ -62,16 +62,14 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li ><a href="#body">Principal</a></li>
-            <li class="dropdown">
-              <a href="#Service" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicio<span class="caret"></span></a>
+            <li><a href="#body">Principal</a></li>
+            <li> <a href="#service">Servicios</a></li>
+            <li><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-
+                <li><a href="#portfolio">Proyectos Realizados</a></li>
+                <li><a href="#about">Proyectos Futuros</a></li>
               </ul>
             </li>
-            <li><a href="#portfolio">Proyecto</a></li>
             <li><a href="#testimonials">Consejales</a></li>
             <li><a href="#social">Redes Sociales</a></li>
             <li><a href="#contact">Contactanos</a></li>
@@ -196,45 +194,93 @@
         End Home SliderEnd
         ==================================== -->
 
-			<!-- about section -->
-			<section id="about" >
-				<div class="container">
-					<div class="row">
+        <section id="about" >
+    				<div class="overlay">
+    					<div class="sl-slider-wrapper">
+    						<div class="row">
 
+    							<div class="sec-title text-center white wow animated fadeInDown">
+    								<h2>Alcalde</h2>
+    							</div>
 
-						<div class="col-md-4 wow animated fadeInLeft">
-							<div class="recent-works">
-								<h3>Proyectos Futuros</h3>
-								<div id="works">
-									<div class="work-item">
-										<p>Primer proyecto <br> <br>Compra de cambion de basura </p>
-									</div>
-									<div class="work-item">
-										<p>Segundo proyeto<br><br>Cancha de futbol</p>
-									</div>
-									<div class="work-item">
-										<p>Tercer proyecto <br><br>Becas para niños</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="col-md-7 col-md-offset-1 wow animated fadeInRight">
-							<div class="welcome-block">
-								<h3>Alcalde Municipal</h3>
-						     	 <div class="message-body">
-									<img src="img/alcalde.jpg" class="pull-left" alt="member">
-						       		<p>Nacido en el municipio de Villa El Refugio, empresario de la cuidad</p>
-						     	 </div>
-						       	<a href="#" class="btn btn-border btn-effect pull-right">Mostrar más</a>
-						    </div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- end about section -->
-
+    							<div id="testimonial" class="animated">
+    								<div class="testimonial-item2 text-center">
+    									<img src="img/alcalde.jpg" alt="Our Clients">
+    									<div class="clearfix">
+                      </br>
+                    </br>
+    									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+                      <p hidden id="bio">
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      Dice la Palabra de Dios que no hay otro Nombre
+                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                      EL PODER SEA PARA JESÚS
+                      ffffff
+                      ffff
+                      ffffffffffffffffffffffffffff
+                      ffffffffffffffffffffffffffffffffffffffffffff
+                      f
+                    </p>
+                    </div>
+                  </br>
+                </br>
+                <a id="men"></a>
+                <a id="mas" class="btn btn-border btn-effect">Mostrar más</a>
+                 </div>
+    									</div>
+    								</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  			</section>
+  			<!-- end about section -->
 
 			<!-- Service section -->
 		<!-- Service section -->
@@ -249,8 +295,8 @@
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
 							<div class="service-item">
-								<div class="service-icon"><a href="index.php/proyectos/Servicios"><i class="fa fa-money fa-3x"></i></a>
-
+								<div class="service-icon">
+                  <a class="servicios"><i class="fa fa-money fa-3x"></i></a>
 								</div>
 								<h3>Apoyo a la Tercera Edad</h3>
 								<p>Se ha desarrollado un programa de ayuda  para las personas de la tercera edad de escasos recursos económicos.
@@ -261,7 +307,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-futbol-o fa-3x"></i>
+									<a class="servicios"><i class="fa fa-futbol-o fa-3x"></i></a>
 								</div>
 								<h3>Escuela Municipal de Fútbol</h3>
 								<p>Ejecuta programas de prevención de violencia, y una de las estrategias utilizadas es el apoyo a los jóvenes a través del deporte. </p>
@@ -271,7 +317,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-hand-rock-o fa-3x"></i>
+									<a class="servicios"><i class="fa fa-hand-rock-o fa-3x"></i></a>
 								</div>
 								<h3>Escuela Municipal de Taekwondo</h3>
 								<p>apoya las diferentes disciplinas deportivas, y una de las que se está desarrollando en Villa El Refugio es la de Taekwondo. </p>
@@ -281,7 +327,7 @@
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<div class="service-icon">
-									<i class="fa fa-medkit fa-3x"></i>
+									<a class="servicios"><i class="fa fa-medkit fa-3x"></i></a>
 								</div>
 
 								<h3>Salud y Bienestar</h3>
