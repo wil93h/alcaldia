@@ -56,16 +56,6 @@
 
     <body id="body">
 
-		<!-- preloader -->
-		<div id="preloader">
-            <div class="loder-box">
-              <img id="inicio" src="../../../img/logog.gif" alt="Logo"></img>
-            	<!--<div class="battery"></div> -->
-            </div>
-		</div>
-		<!-- end preloader -->
-
-
 
 			<!-- portfolio section -->
 			<section id="portfolio">

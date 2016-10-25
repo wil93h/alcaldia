@@ -66,8 +66,8 @@
             <li> <a href="#service">Servicios</a></li>
             <li><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proyectos<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#portfolio">Proyectos Realizados</a></li>
-                <li><a href="#about">Proyectos Futuros</a></li>
+                <li><a href="#proyectos_realizados">Proyectos Realizados</a></li>
+                <li><a href="#proyectos_futuros">Proyectos Futuros</a></li>
               </ul>
             </li>
             <li><a href="#testimonials">Consejales</a></li>
@@ -194,13 +194,13 @@
         End Home SliderEnd
         ==================================== -->
 
-        <section id="about" >
+        <section id="alcalde" >
     				<div class="overlay">
     					<div class="sl-slider-wrapper">
     						<div class="row">
 
     							<div class="sec-title text-center white wow animated fadeInDown">
-    								<h2>Alcalde</h2>
+    								<h2><span class="subrayadoBlanco">Alcalde</span></h2>
     							</div>
 
     							<div id="testimonial" class="animated">
@@ -209,7 +209,7 @@
     									<div class="clearfix">
                       </br>
                     </br>
-    									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+    									<p class="parrafo">Alcalde de la municipalidad de Villa El Refugio</p>
                       <p hidden id="bio">
                       Dice la Palabra de Dios que no hay otro Nombre
                       dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
@@ -289,7 +289,7 @@
 					<div class="row">
 
 						<div class="sec-title text-center">
-							<h2 class="wow animated bounceInLeft">Servicios</h2>
+							<h2><span class="subrayadoAzul"class="wow animated bounceInLeft">Servicios</span></h2>
 							<p class="wow animated bounceInRight">Servicios a la Comunidad</p>
 						</div>
 
@@ -340,15 +340,36 @@
 			</section>
 			<!-- end Service section -->
 
-
+      <section id="proyectos_futuros" >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 wow animated fadeInLeft">
+              <div class="recent-works">
+                <h3><span class="subrayadoBlanco">Proyectos Futuros</span></h3>
+                <div id="works">
+                  <div class="work-item">
+                    <p>Primer proyecto <br> <br>Basura</p>
+                  </div>
+                  <div class="work-item">
+                    <p>Segundo proyeto<br><br>Cancha de futbol</p>
+                  </div>
+                  <div class="work-item">
+                    <p>Tercer proyecto <br><br>Becas para niños</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 			<!-- portfolio section -->
 
-			<section id="portfolio">
+			<section id="proyectos_realizados">
 				<div class="container">
 					<div class="row">
 
 						<div class="sec-title text-center wow animated fadeInDown" id="proyec">
-							<h2>Proyectos</h2>
+              <h2><span class="subrayadoAzul">Proyectos Realizados</span></h2>
 							<p>Los beneficiados somos todos, proyectos en Villa El Refugio</p>
 						</div>
 
@@ -433,7 +454,7 @@
 						<div class="row">
 
 							<div class="sec-title text-center white wow animated fadeInDown">
-								<h2>Concejales</h2>
+              <h2><span class="subrayadoBlanco">Concejales</span></h2>
 							</div>
 
 							<div id="testimonial" class="animated">
@@ -568,7 +589,7 @@
 					<div class="row">
 
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2>Contactanos</h2>
+							<h2><span class="subrayadoAzul">Contactanos</span></h2>
 							<p>Dejanos saber tus comentarios o sugerencias</p>
 						</div>
 
@@ -597,7 +618,7 @@
   </div>
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
-								<h3>Contacto</h3>
+								<h2><span class="subrayadoAzul">Contacto</span></h2>
 								<p><i class="fa fa-pencil"></i>Alcaldía Municipal de Villa El Refugio<span>PO Box 345678</span> <span>Villa El Refugio, Ahuachapán</span><span>El Salvador</span></p><br>
 								<p><i class="fa fa-phone"></i>Teléfono: 2445-9100</p>
 								<p><i class="fa fa-envelope"></i>website@yourname.com</p>
