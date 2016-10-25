@@ -37,7 +37,8 @@
         <link rel="stylesheet" href="../../css/animate.css">
 		<!-- Main Stylesheet -->
         <link rel="stylesheet" href="../../css/main.css">
-
+        <!-- recuros Servicios.css -->
+        <link rel="stylesheet" href="../../css/Servicios.css">
 		<!-- Modernizer Script for old Browsers -->
         <script src="../../js/modernizr-2.6.2.min.js"></script>
 
@@ -82,5 +83,17 @@
     </nav>
     </header>
 
+<section id="seccionUno">
+  <div class="container Contenedor">
+  <!-- columna izq -->
+    <div class="col-sm6 textIzq">
+      <div class="service-icon">
+                  <a class="servicios"><i class="fa fa-folder-open-o"></i></a>
+                </div>
+
+    </div>
+
+  </div>
+</section>
 
 </html>

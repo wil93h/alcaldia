@@ -1,0 +1,14 @@
+body {
+	padding-top: 70px;
+}
+
+
+body {
+	background: #ccc url(../img/slider/principal.jpg) no-repeat center center fixed;
+	color: #000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background: cover;
+	text-align: center;
+}
