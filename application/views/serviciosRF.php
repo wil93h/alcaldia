@@ -44,7 +44,7 @@
 
     </head>
 
-    <body id="body">
+    <body id="bodyServicios">
 
         <!-- start header -->
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
@@ -84,16 +84,76 @@
     </header>
 
 <section id="seccionUno">
-  <div class="container Contenedor">
-  <!-- columna izq -->
-    <div class="col-sm6 textIzq">
-      <div class="service-icon">
-                  <a class="servicios"><i class="fa fa-folder-open-o"></i></a>
-                </div>
 
-    </div>
+<table id="ser" border="1">
+  <thead>
 
-  </div>
+    <tr>
+      <th>Servicio</th> <th>Unidad Encargada</th> <th>Base Imponible</th> <th>Tasa/Impuesto Mensual</th> <th>Teléfono</th>
+    </tr>
+
+  </thead>
+
+  <tbody>
+
+    <tr>
+    <td>Certificaciones de partidas</td> <td>Registro Familiar</td> <td>1</td> <td>$1.31 c/u más las marginaciones si las hay</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Actas matrimoniales</td> <td>Registro Familiar</td> <td>1</td> <td>$1.89 c/u</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Carata de Venta (visto bueno)</td> <td>Registro Familiar</td> <td>1</td> <td>$2.85</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Por matrimonio civil en la alcaldía</td> <td>Registro Familiar</td> <td>1</td> <td>$20.00</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Por matrimonio civil a domicilio</td> <td>Registro Familiar</td> <td>1</td> <td>$30.00</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Auténticas de partidas de nacimiento</td> <td>Registro Familiar</td> <td>1</td> <td>$5.94</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Carnet de minoridad</td> <td>Registro Familiar</td> <td>1</td> <td>$0.15</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Derechos de marginaciones diferentes</td> <td>Registro Familiar</td> <td>C/U</td> <td>$0.60 c/u</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Constancia de no asiento de partidas (nacimiento y defunción)</td> <td>Registro Familiar</td> <td>C/U</td> <td>$1.19</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Constancia de traslado de cadáver</td> <td>Registro Familiar</td> <td>C/U</td> <td>$5.94</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Guía por conducción de ganado</td> <td>Registro Familiar</td> <td>C/U</td> <td>$1.04</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Asentamiento subsidiario (nacimiento y defunciones)</td> <td>Registro Familiar</td> <td>C/U</td> <td>$3.09</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Certificación de registro de cédula</td> <td>Registro Familiar</td> <td>C/U</td> <td>$1.19</td> <td>2445-9108</td>
+    </tr>
+
+    <tr>
+    <td>Constancia de soltería</td> <td>Registro Familiar</td> <td>C/U</td> <td>$1.19</td> <td>2445-9108</td>
+    </tr>
+
+  </tbody>
+</table>
 </section>
 
 </html>

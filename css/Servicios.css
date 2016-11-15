@@ -3,8 +3,8 @@ body {
 }
 
 
-body {
-	background: #ccc url(../img/slider/principal.jpg) no-repeat center center fixed;
+#bodyServicios {
+	background-color: white;
 	color: #000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

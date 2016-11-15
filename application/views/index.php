@@ -1,26 +1,27 @@
-<!DOCTYPE html>
- <!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
- <!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
- <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
- <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-     <head>
-    	 <!-- meta character set -->
-         <meta charset="utf-8">
-		 <!-- Always force lai IE rendering engine or request Chrome Frame -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Alcaldía Municipal de Villa El Refugio</title>
-		<!-- Meta Description -->
-        <meta name="description" content="Alcaldía Municipal de Villa El Refugio">
-        <meta name="keywords" content="El Salvador, El Refugio, Villa, Ahuachapan, alcaldia, municipal">
-        <meta name="author" content="Muhammad Morshed">
 
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <!-- meta character set -->
+    <meta charset="utf-8">
+<!-- Always force lai IE rendering engine or request Chrome Frame -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title>Alcaldía Municipal de Villa El Refugio</title>
+<!-- Meta Description -->
+   <meta name="description" content="Alcaldía Municipal de Villa El Refugio">
+   <meta name="keywords" content="El Salvador, El Refugio, Villa, Ahuachapan, alcaldia, municipal">
+   <meta name="author" content="Muhammad Morshed">
+
+<!-- Mobile Specific Meta -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- CSS
 		================================================== -->
 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- Fontawesome Icon font -->
         <link rel="shortcut icon" href="img/logoICO.ico">
@@ -40,11 +41,13 @@
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
-
     </head>
 
     <body id="body">
-        <!-- start header -->
+
+        <!--
+        Fixed Navigation
+        ==================================== -->
         <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
 
         <!-- nuevo menu -->
@@ -78,7 +81,6 @@
       </div>
     </nav>
     </header>
-    <!-- End header -->
         <!--
         End Fixed Navigation
         ==================================== -->
@@ -89,266 +91,274 @@
         Home Slider
         ==================================== -->
 
-		<section id="home-slider">
-            <div id="slider" class="sl-slider-wrapper">
+        <section id="home-slider">
+                <div id="slider" class="sl-slider-wrapper">
 
-				<div class="sl-slider">
+            <div class="sl-slider">
 
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+              <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 
-						<div class="bg-img bg-img-1"></div>
+                <div class="bg-img bg-img-1"></div>
 
-						<div class="slide-caption">
-                            <div class="caption-content">
-                                <img class="logo" src="img/logog.png" alt="Logo"></img>
-                                <h2 class="animated fadeInDown">Alcaldía Municipal Villa El Refugio</h2>
-                                <h2 id='pais' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                <div class="slide-caption">
+                                <div class="caption-content">
+                                    <img class="logo" src="img/logog.png" alt="Logo"></img>
+                                    <h2 class="animated fadeInDown">Alcaldía Municipal Villa El Refugio</h2>
+                                    <h2 id='pais' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                                </div>
                             </div>
-                        </div>
 
-					</div>
+              </div>
 
-					<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-						<div class="bg-img bg-img-2"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                              <img class="logo" src="img/logog.png" alt="Logo"></img>
-                              <h2>Alcaldía Municipal de Villa El Refugio</h2>
-                              <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+              <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="bg-img bg-img-2"></div>
+                <div class="slide-caption">
+                                <div class="caption-content">
+                                  <img class="logo" src="img/logog.png" alt="Logo"></img>
+                                  <h2>Alcaldía Municipal de Villa El Refugio</h2>
+                                  <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                                </div>
                             </div>
-                        </div>
 
-					</div>
+              </div>
 
-					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+              <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 
-						<div class="bg-img bg-img-3"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                              <img class="logo" src="img/logog.png" alt="Logo"></img>
-                              <h2>Alcaldía Municipal de Villa El Refugio</h2>
-                              <h2 id='pais3' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                <div class="bg-img bg-img-3"></div>
+                <div class="slide-caption">
+                                <div class="caption-content">
+                                  <img class="logo" src="img/logog.png" alt="Logo"></img>
+                                  <h2>Alcaldía Municipal de Villa El Refugio</h2>
+                                  <h2 id='pais3' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                                </div>
                             </div>
-                        </div>
 
-					</div>
+              </div>
 
-          <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+              <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 
-						<div class="bg-img bg-img-4"></div>
-						<div class="slide-caption">
-                            <div class="caption-content">
-                              <img class="logo" src="img/logog.png" alt="Logo"></img>
-                              <h2>Alcaldía Municipal de Villa El Refugio</h2>
-                              <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                <div class="bg-img bg-img-4"></div>
+                <div class="slide-caption">
+                                <div class="caption-content">
+                                  <img class="logo" src="img/logog.png" alt="Logo"></img>
+                                  <h2>Alcaldía Municipal de Villa El Refugio</h2>
+                                  <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                                </div>
                             </div>
-                        </div>
 
-					</div>
+              </div>
 
 
-          <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+              <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 
-            <div class="bg-img bg-img-5"></div>
-            <div class="slide-caption">
-                            <div class="caption-content">
-                              <img class="logo" src="img/logog.png" alt="Logo"></img>
-                              <h2>Alcaldía Municipal de Villa El Refugio</h2>
-                              <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                <div class="bg-img bg-img-5"></div>
+                <div class="slide-caption">
+                                <div class="caption-content">
+                                  <img class="logo" src="img/logog.png" alt="Logo"></img>
+                                  <h2>Alcaldía Municipal de Villa El Refugio</h2>
+                                  <h2 id='pais2' class="animated fadeInDown">Ahuachapán, El Salvador</h2>
+                                </div>
                             </div>
-                        </div>
 
-          </div>
+              </div>
 
-				</div><!-- /sl-slider -->
+            </div><!-- /sl-slider -->
 
-                <!--
-                <nav id="nav-arrows" class="nav-arrows">
-                    <span class="nav-arrow-prev">Previous</span>
-                    <span class="nav-arrow-next">Next</span>
-                </nav>
-                -->
+                    <!--
+                    <nav id="nav-arrows" class="nav-arrows">
+                        <span class="nav-arrow-prev">Previous</span>
+                        <span class="nav-arrow-next">Next</span>
+                    </nav>
+                    -->
 
-                <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
-                    <a href="javascript:;" class="sl-prev">
-                        <i class="fa fa-angle-left fa-3x"></i>
-                    </a>
-                    <a href="javascript:;" class="sl-next">
-                        <i class="fa fa-angle-right fa-3x"></i>
-                    </a>
-                </nav>
+                    <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                        <a href="javascript:;" class="sl-prev">
+                            <i class="fa fa-angle-left fa-3x"></i>
+                        </a>
+                        <a href="javascript:;" class="sl-next">
+                            <i class="fa fa-angle-right fa-3x"></i>
+                        </a>
+                    </nav>
 
-      <!--Se debe modificar para añadir imagenes a la pantalla principal en Móvil -->
-				<nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
-					<span class="nav-dot-current"></span>
-					<span></span>
-					<span></span>
-          <span></span>
-          <span></span>
-				</nav>
+          <!--Se debe modificar para añadir imagenes a la pantalla principal en Móvil -->
+            <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
+              <span class="nav-dot-current"></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </nav>
 
-			</div><!-- /slider-wrapper -->
-		</section>
+          </div><!-- /slider-wrapper -->
+        </section>
 
         <!--
         End Home SliderEnd
         ==================================== -->
 
-        <section id="alcalde" >
-    				<div class="overlay">
-    					<div class="sl-slider-wrapper">
-    						<div class="row">
+			<!-- about section -->
+      <section id="alcalde" >
+          <div class="overlay">
+            <div class="sl-slider-wrapper">
+              <div class="row">
 
-    							<div class="sec-title text-center white wow animated fadeInDown">
-    								<h2><span class="subrayadoBlanco">Alcalde</span></h2>
-    							</div>
+                <div class="sec-title text-center white wow animated fadeInDown">
+                  <h2><span class="subrayadoBlanco">Alcalde</span></h2>
+                </div>
 
-    							<div id="testimonial" class="animated">
-    								<div class="testimonial-item2 text-center">
-    									<img src="img/alcalde.jpg" alt="Our Clients">
-    									<div class="clearfix">
-                      </br>
+                <div id="testimonial" class="animated">
+                  <div class="testimonial-item2 text-center">
+                    <img src="img/alcalde.jpg" alt="Our Clients">
+                    <div class="clearfix">
                     </br>
-    									<p class="parrafo">Alcalde de la municipalidad de Villa El Refugio</p>
-                      <p hidden id="bio">
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      Dice la Palabra de Dios que no hay otro Nombre
-                      dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
-                      Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
-                      momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
-                      EL PODER SEA PARA JESÚS
-                      ffffff
-                      ffff
-                      ffffffffffffffffffffffffffff
-                      ffffffffffffffffffffffffffffffffffffffffffff
-                      f
-                    </p>
-                    </div>
                   </br>
+                    <p class="parrafo">Alcalde de la municipalidad de Villa El Refugio</p>
+                    <p hidden id="bio">
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    Dice la Palabra de Dios que no hay otro Nombre
+                    dado a los hombres bajo el cual hay salvacion SOLO JESUCRISTO SALVA RECIBELO!
+                    Por que buscas llenar el vacio que hay en tu corazon con cosas materiales que solo te dan placer un
+                    momento busca de Dios, Su amor es eterno como Él es eterno CRISTO TE AMA :D, TODA LA GLORIA, LA HONRA Y
+                    EL PODER SEA PARA JESÚS
+                    ffffff
+                    ffff
+                    ffffffffffffffffffffffffffff
+                    ffffffffffffffffffffffffffffffffffffffffffff
+                    f
+                  </p>
+                  </div>
                 </br>
-                <a id="men"></a>
-                <a id="mas" class="btn btn-border btn-effect">Mostrar más</a>
-                 </div>
-    									</div>
-    								</div>
+              </br>
+              <a id="men"></a>
+              <a id="mas" class="btn btn-border btn-effect">Mostrar más</a>
+               </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-  			</section>
-  			<!-- end about section -->
+          </div>
+      </section>
+			<!-- end about section -->
+
 
 			<!-- Service section -->
-		<!-- Service section -->
-			<section id="service">
+      <section id="service">
 				<div class="container">
 					<div class="row">
 
 						<div class="sec-title text-center">
 							<h2><span class="subrayadoAzul"class="wow animated bounceInLeft">Servicios</span></h2>
-							<p class="wow animated bounceInRight">Servicios a la Comunidad</p>
+							<p class="wow animated bounceInRight">Servicios según la unidad encargada</p>
 						</div>
 
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn">
-							<div class="service-item">
-								<div class="service-icon">
-                  <a class="servicios"><i class="fa fa-money fa-3x"></i></a>
-								</div>
-								<h3>Apoyo a la Tercera Edad</h3>
-								<p>Se ha desarrollado un programa de ayuda  para las personas de la tercera edad de escasos recursos económicos.
-								</p>
-							</div>
-						</div>
 
+          <div id="servicios">
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.3s">
 							<div class="service-item">
 								<div class="service-icon">
-									<a class="servicios"><i class="fa fa-futbol-o fa-3x"></i></a>
+									<a id="s1"><i class="fa fa-futbol-o fa-3x"></i></a>
 								</div>
-								<h3>Escuela Municipal de Fútbol</h3>
+								<h3>Registro Familiar</h3>
 								<p>Ejecuta programas de prevención de violencia, y una de las estrategias utilizadas es el apoyo a los jóvenes a través del deporte. </p>
 							</div>
 						</div>
 
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.6s">
-							<div class="service-item">
-								<div class="service-icon">
-									<a class="servicios"><i class="fa fa-hand-rock-o fa-3x"></i></a>
-								</div>
-								<h3>Escuela Municipal de Taekwondo</h3>
-								<p>apoya las diferentes disciplinas deportivas, y una de las que se está desarrollando en Villa El Refugio es la de Taekwondo. </p>
-							</div>
-						</div>
 
 						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="0.9s">
 							<div class="service-item">
 								<div class="service-icon">
-									<a class="servicios"><i class="fa fa-medkit fa-3x"></i></a>
+									<a id="s2"><i class="fa fa-medkit fa-3x"></i></a>
 								</div>
 
-								<h3>Salud y Bienestar</h3>
+								<h3>Cuentas Corrientes</h3>
 								<p>Constantemente se realizan jornadas de consulta médica gratuita en Villa El Refugio en coordinación con los médicos de Operación Bendición. </p>
 							</div>
 						</div>
+          </div>
 
 					</div>
 				</div>
 			</section>
 			<!-- end Service section -->
 
+			<!-- portfolio section -->
       <section id="proyectos_futuros" >
         <div class="container">
           <div class="row">
-            <div class="col-md-4 wow animated fadeInLeft">
-              <div class="recent-works">
+            <div class="col-md-12 wow animated fadeInLeft">
+              <div id="rw" class="recent-works">
                 <h3><span class="subrayadoBlanco">Proyectos Futuros</span></h3>
                 <div id="works">
                   <div class="work-item">
-                    <p>Primer proyecto <br> <br>Basura</p>
+                    <p>Primer proyecto <br> <br>Basura
+                    fffffffffffffffff
+                  ffffffffffff
+                ffffffffffffffffffff
+              fffffffffffffffff
+            fffffffffffffffffffff
+          fffffffffffffffffffffffff
+        fffrrrr
+      frfrfr
+    frfrfrfrfrfrfrfrf
+  rfrfrfrfrfrfr
+frfrfrfrfr
+frfrfrfrf
+frfrfrfrfr
+frfrf
+rfrfrf
+rf
+rf
+rf
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+iiiiiiiiiiiiiiiiiii
+<rb></rb></p>
+                  </br>
+                 </br>
                   </div>
                   <div class="work-item">
                     <p>Segundo proyeto<br><br>Cancha de futbol</p>
@@ -446,47 +456,79 @@
 			</section>
 			<!-- end portfolio section -->
 
+      <!-- Testimonial section -->
+  			<section id="testimonials" class="parallax">
+  				<div class="overlay">
+  					<div class="sl-slider-wrapper">
+  						<div class="row">
 
-			<!-- Testimonial section -->
-			<section id="testimonials" class="parallax">
-				<div class="overlay">
-					<div class="sl-slider-wrapper">
-						<div class="row">
+  							<div class="sec-title text-center white wow animated fadeInDown">
+  								<h2>Concejales</h2>
+  							</div>
 
-							<div class="sec-title text-center white wow animated fadeInDown">
-              <h2><span class="subrayadoBlanco">Concejales</span></h2>
-							</div>
+  							<div id="testimonial" class="animated">
+  								<div class="testimonial-item text-center">
+  									<img src="img/concejales/Dagoberto.jpg" alt="Dagoberto">
+  									<div class="clearfix">
+  										<span>Dagoberto</span>
+  									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+  									</div>
+  								</div>
 
-							<div id="testimonial" class="animated">
-								<div class="testimonial-item text-center">
-									<img src="img/alcalde.jpg" alt="Our Clients">
-									<div class="clearfix">
-										<span>Concejal 1</span>
-									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
-									</div>
-								</div>
+  								<div class="testimonial-item text-center">
+  									<img src="img/concejales/Liceth_Polanco.jpg" alt="Liceth Polanco">
+  									<div class="clearfix">
+  										<span>Liceth Polanco</span>
+  									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+  									</div>
+  								</div>
 
-								<div class="testimonial-item text-center">
-									<img src="img/member-1.jpg" alt="Our Clients">
-									<div class="clearfix">
-										<span>Concejal 2</span>
-									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
-									</div>
-								</div>
+  								<div class="testimonial-item text-center">
+  										<img src="img/concejales/Luis_Loarca.jpg" alt="Luis Loarca">
+  									<div class="clearfix">
+  										<span>Luis Loarca</span>
+  									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+  									</div>
+  								</div>
 
-								<div class="testimonial-item text-center">
-									<img src="img/member-1.jpg" alt="Our Clients">
-									<div class="clearfix">
-										<span>Concejal 3</span>
-									<p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
-									</div>
-								</div>
-							</div>
+                  <div class="testimonial-item text-center">
+                  	<img src="img/concejales/Mauricio_Rodriguez.jpg" alt="Mauricio Rodríguez">
+                    <div class="clearfix">
+                      <span>Mauricio Rodríguez</span>
+                    <p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+                    </div>
+                  </div>
 
-						</div>
-					</div>
-				</div>
-			</section>
+                  <div class="testimonial-item text-center">
+                  	<img src="img/concejales/Nelson_Lima.jpg" alt="Nelson Lima">
+                    <div class="clearfix">
+                      <span>Nelson Lima</span>
+                    <p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+                    </div>
+                  </div>
+
+                  <div class="testimonial-item text-center">
+              	  <img src="img/concejales/Pedro_Torres.jpg" alt="Pedro Torres">
+                    <div class="clearfix">
+                      <span>Pedro Torres</span>
+                    <p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+                    </div>
+                  </div>
+
+                  <div class="testimonial-item text-center">
+                    <img src="img/concejales/Yaneth_Lemus.jpg" alt="Yaneth Lemus">
+                    <div class="clearfix">
+                      <span>Yaneth Lemus</span>
+                    <p class="parrafo">Concejal del equipo de trabajo de la municipalidad de Villa El Refugio</p>
+                    </div>
+                  </div>
+
+  							</div>
+
+  						</div>
+  					</div>
+  				</div>
+  			</section>
 			<!-- end Testimonial section -->
 
 			<!-- Price section -->
@@ -558,9 +600,9 @@
 			</section> -->
 			<!-- end Price section -->
 
-			<!-- Social section -->
+      <!-- Social section -->
 			<section id="social">
-       <div class="bg-img bg-img-1">
+      <div class="bg-img bg-img-1">
 				<div class="overlay">
 					<div class="container">
 						<div class="row">
@@ -589,38 +631,34 @@
 					<div class="row">
 
 						<div class="sec-title text-center wow animated fadeInDown">
-							<h2><span class="subrayadoAzul">Contactanos</span></h2>
-							<p>Dejanos saber tus comentarios o sugerencias</p>
+							<h2>Contact</h2>
+							<p>Leave a Message</p>
 						</div>
 
 
-<div class="col-md-7 contact-form wow animated fadeInLeft">
+						<div class="col-md-7 contact-form wow animated fadeInLeft">
+							<form action="#" method="post">
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Your Name...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Your Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Subject...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Messages..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Send</button>
+							</form>
+						</div>
 
-     <form action="index.php/proyectos/EnviarCorreo" method="post">
-          	<div class="input-field">
-          <input name="nombre" type="text"  class="form-control" placeholder="Nombre"  required/>
-        </div>
-        <div class="input-field">
-          <input name="email" type="text"  class="form-control" placeholder="Correo" required/>
-        </div>
-        <div class="input-field">
-          <input name="telefono" type="text"  class="form-control" placeholder="Teléfono" required  />
-        </div>
-      <div class="input-field">
-        <input name="asunto" type="text"  class="form-control" placeholder="Asunto" required/>
-      </div>
-        <div class="input-field">
-          <textarea name="mensaje" rows="6" cols="50"  class="form-control" placeholder="Mensaje" required></textarea>
-        </div>
-        <input type="reset" value="Borrar" class="btn btn-blue btn-effect" />
-        <input type="submit" value="Enviar" class="btn btn-blue btn-effect" />
-      </form>
-  </div>
 						<div class="col-md-5 wow animated fadeInRight">
 							<address class="contact-details">
-								<h2><span class="subrayadoAzul">Contacto</span></h2>
-								<p><i class="fa fa-pencil"></i>Alcaldía Municipal de Villa El Refugio<span>PO Box 345678</span> <span>Villa El Refugio, Ahuachapán</span><span>El Salvador</span></p><br>
-								<p><i class="fa fa-phone"></i>Teléfono: 2445-9100</p>
+								<h3>Contact Us</h3>
+								<p><i class="fa fa-pencil"></i>Phoenix Inc.<span>PO Box 345678</span> <span>Little Lonsdale St, Melbourne </span><span>Australia</span></p><br>
+								<p><i class="fa fa-phone"></i>Phone: (415) 124-5678 </p>
 								<p><i class="fa fa-envelope"></i>website@yourname.com</p>
 							</address>
 						</div>
@@ -635,39 +673,7 @@
 			</section>
 
 		</main>
-<!--
-		<footer id="footer">
-			<div class="container">
-				<div class="row text-center">
-					<div class="footer-content">
-						<div class="wow animated fadeInDown">
-							<p>newsletter signup</p>
-							<p>Get Cool Stuff! We hate spam!</p>
-						</div>
-						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
-							<div class="input-field">
-								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
-								<button type="submit" class="submit-icon">
-									<i class="fa fa-paper-plane fa-lg"></i>
-								</button>
-							</div>
-						</form>
-						<div class="footer-social">
-							<ul>
-								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#"><i class="fa fa-twitter fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-skype fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
-								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
-							</ul>
-						</div>
 
-						<p>Copyright &copy; 2014-2015 Design and Developed By<a href="http://www.themefisher.com">Themefisher</a> </p>
-					</div>
-				</div>
-			</div>
-		</footer>
-  !-->
 
 		<!-- Essential jQuery Plugins
 		================================================== -->

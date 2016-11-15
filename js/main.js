@@ -110,8 +110,12 @@ $(document).ready(function(){
 	 $(this).attr("href","index.php/proyectos/proy/proyecto6");
 	 });
 
-   $(".servicios").click(function(){
-	 $(this).attr("href","index.php/proyectos/servicios");
+   $("#s1").click(function(){
+	 $(this).attr("href","index.php/proyectos/serviciosRF");
+	 })
+
+	 $("#s2").click(function(){
+	 $(this).attr("href","index.php/proyectos/serviciosCC");
 	 })
 
 	 $("#mas").click(function(){
