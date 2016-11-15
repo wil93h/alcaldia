@@ -974,12 +974,11 @@ background-color: #0A85BB;
 background: #2E2E2E;
 }
 
-.contact-details h3 {
- border-bottom: 1px solid #008ecc;
- font-weight: 700;
- margin-bottom: 15px;
- padding-bottom: 15px;
- text-transform: uppercase;
+.contact-details h3{
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .contact-details p {

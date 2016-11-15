@@ -85,6 +85,10 @@
 
 <section id="seccionUno">
 
+  <h1><span class="subrayadoAzul">Registro Familiar</span></h1>
+</br>
+</br>
+
 <table id="ser" border="1">
   <thead>
 
